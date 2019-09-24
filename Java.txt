@@ -11,9 +11,9 @@ try {
 	fo.close();
 	System.out.println("success");
 	
-} catch (IOException e) {
+} catch (IOException ex) {
 
-	e.printStackTrace();
+	ex.printStackTrace();
 }
 	}
 
