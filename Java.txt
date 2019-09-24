@@ -18,3 +18,19 @@ try {
 	}
 
 }
+
+
+//adding another way
+
+
+try{
+		FileWriter file = new FileWriter("F:\\hari.text");
+		file.write("harikumar");
+		file.close();
+			System.out.println("file is created");
+		
+		
+	}catch(IOException e) {
+		e.printStackTrace();
+	}
+}
